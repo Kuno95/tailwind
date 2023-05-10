@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    .hvn-1 {
+     @apply  text-sm text-center my-5 border-2 p-5 flex-grow
+    }
+    .hvn-2 {
+       @apply h-6 w-6 bg-black border rounded-2xl m-auto
+    }
+    .hvn-3 {
+        @apply mt-5 text-xs border rounded-2xl
+    }
+}
